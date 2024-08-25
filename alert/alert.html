@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Button | Mr. Ramel</title>
+    <!-- css link -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="popup-container">
+        <!-- success start -->
+         <div class="popup success-popup" id="successPopup">
+            <div class="popup-icon success-icon">
+                <i class="fa-solid fa-circle-check success"></i>
+            </div>
+            <div class="success-message">Successfully Save!</div>
+            <div class="popup-icon close-icon" id="closePopup">
+                <i class="fa-solid fa-x close"></i>
+            </div>
+         </div>
+         <button class="btn-success">Button</button>
+        <!-- success end -->
+
+        <!-- alert start -->
+        <div class="popup alert-popup" id="alertPopup">
+            <div class="popup-icon alert-icon">
+                <i class="fa-solid fa-triangle-exclamation alert"></i>
+            </div>
+            <div class="alert-message">
+                Warning Lorem, ipsum dolor.!
+            </div>
+            <div class="popup-icon close-icon" id="closePopup">
+                <i class="fa-solid fa-x close"></i>
+            </div>
+         </div>
+         <button class="btn-alert">Button</button>
+        <!-- alert end -->
+
+        <!-- error start -->
+        <div class="popup error-popup" id="errorPopup">
+            <div class="popup-icon error-icon">
+                <i class="fa-solid fa-circle-xmark error"></i>
+            </div>
+            <div class="error-message">
+                Error something is wrong!
+            </div>
+            <div class="popup-icon close-icon" id="closePopup">
+                <i class="fa-solid fa-x close"></i>
+            </div>
+         </div>
+         <button class="btn-error">Button</button>
+        <!-- error end -->
+
+
+        <!-- info start -->
+        <div class="popup info-popup" id="infoPopup">
+            <div class="popup-icon info-icon">
+                <i class="fa-solid fa-circle-info info"></i>
+            </div>
+            <div class="info-message">
+                Lorem ipsum dolor sit amet.!
+            </div>
+            <div class="popup-icon close-icon" id="closePopup">
+                <i class="fa-solid fa-x close"></i>
+            </div>
+         </div>
+         <button class="btn-info">Button</button>
+        <!-- error end -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
